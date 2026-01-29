@@ -1,0 +1,60 @@
+/* Общие стили */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #212529;
+}
+
+/* Контейнер страницы */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5 {
+  color: #343a40;
+  margin-bottom: 1rem;
+}
+
+/* Карточки данных */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Список событий */
+ul.event-list {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+}
+
+/* Навигация */
+nav {
+  background-color: #343a40;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #f8f9fa;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Выделение активного пункта меню (если используете router-link) */
+.router-link-active {
+  color: #ffc107;
+}
